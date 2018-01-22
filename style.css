@@ -1,0 +1,41 @@
+#feature {
+  width: 68%;
+  float: left;
+  margin-right: 2%;
+}
+
+#issue {
+  width: 30%;
+  float: left;
+}
+
+main,footer {
+  overflow: auto;
+}
+
+#feature img {
+  float: left;
+  margin-right: 1em;
+}
+
+footer li {
+  width: 25%;
+  float: left;
+}
+
+footer ul, nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding-bottom: 1em;
+}
+
+header,footer {
+  background: #cccccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
