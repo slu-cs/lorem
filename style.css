@@ -1,16 +1,8 @@
+/********** Main layout **************/
+
 #feature {
-  width: 68%;
+  width: 70%;
   float: left;
-  margin-right: 2%;
-}
-
-#issue {
-  width: 30%;
-  float: left;
-}
-
-main,footer {
-  overflow: auto;
 }
 
 #feature img {
@@ -18,24 +10,61 @@ main,footer {
   margin-right: 1em;
 }
 
+#issue {
+  width: 28%;
+  float: left;
+  margin-left: 2%;
+}
+
+#issue ul {
+  list-style: none;
+  padding: 0;
+}
+
+#issue li {
+  margin-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: double;
+}
+
+main {
+  overflow: auto;
+}
+
+/********** Header/footer layout **************/
+
+header,footer {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+
 footer li {
   width: 25%;
   float: left;
 }
 
-footer ul, nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+footer {
+  overflow: auto;
 }
 
-nav li {
-  padding-bottom: 1em;
+/********** General **************/
+
+body {
+  background: #faf3dd;
+  font-family: "Georgia", serif;
 }
 
 header,footer {
-  background: #cccccc;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center;
+  background: #c8d5b9;
+}
+
+a {
+  color: #736ced;
+  text-decoration: none;
 }
